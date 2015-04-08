@@ -13,4 +13,4 @@ Retrieve geo info for ip address via [ip.taobao.com](http://ip.taobao.com) .
 
 ## Usage
 
-![ipgeo_test](https://github.com/aichaoguy/ipgeo/raw/master/ipgeo_test.png)
+![ipgeo_test](https://github.com/aichaoguy/ipgeo/raw/master/ipgeo/ipgeo_test.png)
