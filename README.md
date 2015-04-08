@@ -24,3 +24,4 @@ print info.region       #四川省
 print info.city         #成都市
 print info.full_name()  #中国四川省成都市
 ```
+![](https://github.com/aichaoguy/ipgeo/raw/master/ipgeo_test.png)
