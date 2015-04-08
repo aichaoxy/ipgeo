@@ -3,7 +3,7 @@ ipgeo
 
 Inspired by [huacnlee/ip-location](https://github.com/huacnlee/ip-location).
 
-[PyPi page](https://pypi.python.org/pypi/ipgeo/0.2) of ipgeo.
+[PyPi page](https://pypi.python.org/pypi/ipgeo/0.2.2) of ipgeo.
 
 ## Goal
 
