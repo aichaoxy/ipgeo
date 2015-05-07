@@ -1,5 +1,6 @@
 ipgeo
 ===========
+[![Build Status](https://travis-ci.org/aichaoguy/ipgeo.svg?branch=master)](https://travis-ci.org/aichaoguy/ipgeo)
 
 Inspired by [huacnlee/ip-location](https://github.com/huacnlee/ip-location).
 
