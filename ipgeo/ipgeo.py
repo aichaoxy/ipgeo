@@ -1,50 +1,30 @@
-import urllib2
+try:
+    from urllib.request import urlopen
+except ImportError:
+    from urllib2 import urlopen
+
+import codecs
+reader = codecs.getreader("utf-8")
 import json
 class GeoInfo:
-    def __init__(self):
-        pass
-
-    @property
-    def country(self):
-        return self._country
-    @country.setter
-    def country(self, c):
-        self._country = c
-
-    @property
-    def region(self):
-        return self._region
-    @region.setter
-    def region(self, r):
-        self._region = r
-
-    @property
-    def city(self):
-        return self._city
-    @city.setter
-    def city(self, c):
-        self._city = c
-
-    @property
-    def isp(self):
-        return self._isp
-    @isp.setter
-    def isp(self, i):
-        self._isp = i
+    def __init__(self, _country, _region, _city, _isp):
+        self.country = _country
+        self.region = _region
+        self.city = _city
+        self.isp = _isp
 
     def full_name(self):
         return "".join([self.country, self.region, self.city])
 
 def query(ip):
-    response = urllib2.urlopen('http://ip.taobao.com/service/getIpInfo.php?ip='+ip)
-    data = json.load(response)
+    response = urlopen('http://ip.taobao.com/service/getIpInfo.php?ip='+ip)
+    data = json.load(reader(response))
     if data['code'] == 0:
-        info = GeoInfo()
-        info.country = data['data']['country']
-        info.region  = data['data']['region']
-        info.city    = data['data']['city']
-        info.isp     = data['data']['isp']
+        country = data['data']['country']
+        region  = data['data']['region']
+        city    = data['data']['city']
+        isp     = data['data']['isp']
+        info = GeoInfo(country, region, city, isp)
         return info
     else:
         return None
-
