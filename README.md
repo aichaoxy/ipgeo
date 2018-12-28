@@ -1,7 +1,7 @@
 ipgeo
 ===========
-[![Build Status](https://travis-ci.org/aichaoguy/ipgeo.svg?branch=master)](https://travis-ci.org/aichaoguy/ipgeo)[![PyPI version](https://badge.fury.io/py/ipgeo.svg)](http://badge.fury.io/py/ipgeo)[![Coverage Status](https://coveralls.io/repos/aichaoguy/ipgeo/badge.svg)](https://coveralls.io/r/aichaoguy/ipgeo)[![Code Health](https://landscape.io/github/aichaoguy/ipgeo/master/landscape.svg?style=flat)](https://landscape.io/github/aichaoguy/ipgeo/master)
-[![Stories in Ready](https://badge.waffle.io/aichaoguy/ipgeo.svg?label=ready&title=Ready)](http://waffle.io/aichaoguy/ipgeo)
+[![Build Status](https://travis-ci.org/aiic03/ipgeo.svg?branch=master)](https://travis-ci.org/aiic03/ipgeo)[![PyPI version](https://badge.fury.io/py/ipgeo.svg)](http://badge.fury.io/py/ipgeo)[![Coverage Status](https://coveralls.io/repos/aiic03/ipgeo/badge.svg)](https://coveralls.io/r/aiic03/ipgeo)[![Code Health](https://landscape.io/github/aiic03/ipgeo/master/landscape.svg?style=flat)](https://landscape.io/github/aiic03/ipgeo/master)
+[![Stories in Ready](https://badge.waffle.io/aiic03/ipgeo.svg?label=ready&title=Ready)](http://waffle.io/aiic03/ipgeo)
 
 
 Geo info retriver for ipv4 address using chinese taobao service.
