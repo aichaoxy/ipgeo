@@ -1,10 +1,13 @@
 ipgeo
 ===========
-[![Build Status](https://travis-ci.org/aiic03/ipgeo.svg?branch=master)](https://travis-ci.org/aiic03/ipgeo)[![PyPI version](https://badge.fury.io/py/ipgeo.svg)](http://badge.fury.io/py/ipgeo)[![Coverage Status](https://coveralls.io/repos/aiic03/ipgeo/badge.svg)](https://coveralls.io/r/aiic03/ipgeo)[![Code Health](https://landscape.io/github/aiic03/ipgeo/master/landscape.svg?style=flat)](https://landscape.io/github/aiic03/ipgeo/master)
-[![Stories in Ready](https://badge.waffle.io/aiic03/ipgeo.svg?label=ready&title=Ready)](http://waffle.io/aiic03/ipgeo)
+
+<font color="red">!!!IMPORTANT: This repo, with the corresponding PyPI lib, is no longer maintained.
+`ip.taobao.com` has been shutdown since 2022.3.31 [<sup>1</sup>].</font>
+
+[![PyPI version](https://badge.fury.io/py/ipgeo.svg)](http://badge.fury.io/py/ipgeo)
 
 
-Geo info retriver for ipv4 address using chinese taobao service.
+Geo info retriever for ipv4 address using chinese taobao service.
 
 Python 2.x/3.x Compatible.
 
@@ -31,3 +34,6 @@ print(info.region)       # 四川省
 print(info.city)         # 成都市
 print(info.full_name())  # 中国四川省成都市
 ```
+
+## Refer
+- [1] 淘宝IP地址库 https://web.archive.org/web/20220501170356/https://ip.taobao.com/
